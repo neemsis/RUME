@@ -1,6 +1,6 @@
 # RUME (2010)
 
-This repository contains codes relating to the RUral Microfinance and Employment (RUME) socio-economic survey conducted in rural Tamil Nadu in 2010, in 10 villages and 405 households.
+This repository contains codes relating to the *RUral Microfinance and Employment* (RUME) socio-economic survey conducted in rural Tamil Nadu in 2010, in 10 villages and 405 households.
 
 ----
 
