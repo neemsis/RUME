@@ -1,32 +1,14 @@
 *-------------------------
 *Arnaud NATAL
-*arnaud.natal@u-bordeaux.fr
+*arnaud.natal@ifpindia.org
 *-----
-*Debt construction
+*Loans construction without cleaning
 *-----
-*-------------------------
-
-********** Clear
 clear all
 macro drop _all
-
-********** Path to working directory directory
-global directory = "C:\Users\Arnaud\Documents\Dropbox (Personal)\Construction"
+global directory = ""
 cd"$directory"
-
-********** Database names
-global data = "RUME-HH"
-global loans = "RUME-loans_mainloans"
-
-********** Scheme
-set scheme plotplain_v2
-grstyle init
-grstyle set plain, box nogrid
-
-********** Deflate
-*https://data.worldbank.org/indicator/FP.CPI.TOTL?locations=IN
-*(100/158) if year==2016
-*(100/184) if year==2020
+*-------------------------
 
 
 
@@ -36,7 +18,7 @@ grstyle set plain, box nogrid
 ****************************************
 * CLEANING 2
 ****************************************
-use "$loans", clear
+use "RUME-loan_mainloans", clear
 
 
 *Settled
