@@ -15,7 +15,7 @@ cd"$directory"
 ****************************************
 * ASSETS 2010
 ***************************************
-use"$data", clear
+use"RUME-HH", clear
 
 /*
 Assets = 
@@ -80,27 +80,6 @@ drop livestockamount_cow livestockamount_goat goodsvalue1 goodsvalue2 goodsvalue
 
 
 ********** Variables
-preserve
-keep assets* HHID2010
-duplicates drop
-tabstat assets assets_noland assets_noprop, stat(n mean sd q min max)
-tabstat assets1000 assets1000_noland assets1000_noprop, stat(n mean sd q min max)
-restore
-/*
-   stats |  ass~1000  assets..  assets..
----------+------------------------------
-       N |       405       405       405
-    mean |  1272.978  239.8963  97.21728
-      sd |  1581.578  140.8426  54.90822
-     p25 |     190.5       149      60.5
-     p50 |       701       196        85
-     p75 |      1823     296.5     118.5
-     min |      47.5      47.5        17
-     max |   11761.5      1051       451
-----------------------------------------
-*/
-
-
 keep HHID2010 assets* livestockamount goodstotalamount amountownland goldamount_HH housevalue sizeownland
 rename goldamount_HH goldamount
 duplicates drop
