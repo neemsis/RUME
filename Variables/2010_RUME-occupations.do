@@ -1,33 +1,14 @@
 *-------------------------
 *Arnaud NATAL
-*arnaud.natal@u-bordeaux.fr
+*arnaud.natal@ifpindia.org
 *-----
 *Occupations construction
 *-----
-*-------------------------
-
-********** Clear
 clear all
 macro drop _all
-
-********** Path to working directory directory
-global directory = "C:\Users\Arnaud\Documents\Dropbox\RUME-NEEMSIS\Data\Construction"
+global directory = ""
 cd"$directory"
-
-********** Database names
-global data = "RUME-HH"
-global occupations = "RUME-occupations"
-
-********** Scheme
-set scheme plotplain_v2
-grstyle init
-grstyle set plain, box nogrid
-
-********** Deflate
-*https://data.worldbank.org/indicator/FP.CPI.TOTL?locations=IN
-*(100/158) if year==2016
-*(100/184) if year==2020
-
+*-------------------------
 /*
 Utilisation of:
 http://mospi.nic.in/classification/national-industrial-classification
@@ -40,7 +21,7 @@ https://mospi.gov.in/web/mospi/national-industrial-classification
 ****************************************
 * Occupations + profession + sector
 ***************************************
-use"$occupations", clear
+use"RUME-occupations", clear
 
 gen year=2010
 
