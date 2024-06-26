@@ -19,5 +19,8 @@ This repository contains codes relating to the *RUral Microfinance and Employmen
 ----
 
 > This data collection was carried out within the *Observatory of Rural Dynamics and Inequalities in South India*, which analyses over the past 15 years how structural changes in contemporary South India are reshaping the organisation of work, social hierarchies and household livelihoods using first-hand and original data (quantitative and qualitative) collection tools. For more information on the ODRIIS, see the dedicated [website](https://odriis.hypotheses.org/).
-> 
-> ![ODRIIS](https://odriis.hypotheses.org/files/2022/11/ODRIIS_banner-2048x476.jpg)
+>
+> [![ODRIIS][1]][2]
+
+[1]:  https://odriis.hypotheses.org/files/2022/11/ODRIIS_banner-2048x476.jpg
+[2]:  http://odriis.hypotheses.org/
