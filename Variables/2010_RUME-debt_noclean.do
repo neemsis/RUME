@@ -1163,10 +1163,3 @@ restore
 
 *************************************
 * END
-
-
-*Arnaud test yrate
-*gen yratepaid=interestpaid2*100/loanamount if loanduration<=365
-*gen _yratepaid=interestpaid2*365/loanduration if loanduration>365
-*gen _loanamount=loanamount*365/loanduration if loanduration>365
-*replace yratepaid=_yratepaid*100/_loanamount if loanduration>365
