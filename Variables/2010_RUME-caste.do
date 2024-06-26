@@ -17,7 +17,7 @@ cd"$directory"
 ****************************************
 * Caste 2010
 ***************************************
-use"$data", clear
+use"RUME-HH", clear
 
 * To keep
 keep HHID2010 INDID2010 jatis caste village villagearea
@@ -115,39 +115,3 @@ restore
 save"outcomes\RUME-caste", replace
 ****************************************
 * END
-
-
-
-
-
-
-/*
-*TEST
-use"outcomes\RUME-caste", clear
-collapse (mean) caste, by(HHID_panel)
-gen t=1
-save"_temp\test1", replace
-
-
-use"outcomes\NEEMSIS1-caste", clear
-collapse (mean) caste, by(HHID_panel)
-gen t=2
-save"_temp\test2", replace
-
-use"outcomes\NEEMSIS2-caste", clear
-collapse (mean) caste, by(HHID_panel)
-gen t=3
-save"_temp\test3", replace
-
-
-use"_temp\test1", clear
-append using "_temp\test2"
-append using "_temp\test3"
-
-ta caste t
-
-reshape wide caste, i(HHID_panel) j(t)
-
-ta caste1 caste2
-ta caste2 caste3
-*/
