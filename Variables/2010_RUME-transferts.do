@@ -1,38 +1,21 @@
 *-------------------------
 *Arnaud NATAL
-*arnaud.natal@u-bordeaux.fr
+*arnaud.natal@ifpindia.org
 *-----
 *Transferts construction
 *-----
-*-------------------------
-
-********** Clear
 clear all
 macro drop _all
-
-********** Path to working directory directory
-global directory = "C:\Users\Arnaud\Documents\Dropbox\RUME-NEEMSIS\Data\Construction"
+global directory = ""
 cd"$directory"
-
-********** Database names
-global data = "RUME-HH"
-
-********** Scheme
-set scheme plotplain_v2
-grstyle init
-grstyle set plain, box nogrid
-
-********** Deflate
-*https://data.worldbank.org/indicator/FP.CPI.TOTL?locations=IN
-*(100/158) if year==2016
-*(100/184) if year==2020
+*-------------------------
 
 
 
 ****************************************
 * Remittances net
 ***************************************
-use"$data", clear
+use"RUME-HH", clear
 
 egen remreceived_HH=rowtotal(remrectotalamount1 remrectotalamount2 remrectotalamount3)
 
