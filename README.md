@@ -10,6 +10,6 @@ This repository contains codes relating to the *RUral Microfinance and Employmen
 > ### Useful links
 > 
 > * For more information on the survey, see the [dedicated website](https://odriis.hypotheses.org/projects/data/rume).
-> * All documents (i.e., survey manual, questionnaire, survey report) relating to the survey are freely available on HAL ([hal-04153130](https://hal.science/hal-04153130)).
+> * All documents (i.e., survey manual, questionnaire, survey report) relating to the RUME survey are freely available on HAL ([hal-04153130](https://hal.science/hal-04153130)).
 > * All anonymised data are available in open access on Harvard Dataverse (doi: [10.7910/DVN/2KVFXG](https://doi.org/10.7910/DVN/2KVFXG)).
 > * A working paper detailing the methodology of the RUME survey is available in open access [here](https://dial.ird.fr/wp-content/uploads/2024/03/2024-02-NEEMSIS_data_context.pdf).
