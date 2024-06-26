@@ -3,7 +3,7 @@
 This repository contains codes relating to the *RUral Microfinance and Employment* (RUME) socio-economic survey conducted in rural Tamil Nadu in 2010, in 10 villages and 405 households.
 
 * The [*Variables*](https://github.com/neemsis/RUME/tree/main/Variables) folder contains `.do` files for creating variables from RUME data.
-* The '[Merging_cleaning](https://github.com/neemsis/RUME/tree/main/Merging_cleaning)' folder contains `.do` files for merging and cleaning RUME datasets.[^1]
+* The [**Merging_cleaning**](https://github.com/neemsis/RUME/tree/main/Merging_cleaning) folder contains `.do` files for merging and cleaning RUME datasets.[^1]
 
 [^1]: These codes are only useful when recovering data from `SurveyCTO` or `KoboToolbox` servers and cleaning them.
 
